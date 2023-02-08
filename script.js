@@ -17,8 +17,6 @@ function displayTime() {
     h = (h<10) ? '0'+h:h;
     m = (m<10) ? "0"+m:m;
     s = (s<10)? "0"+s:s;
-
-
     var time = y + "/" + month + "/" + d + " " + h + ":" + m + ":" + s+'' + ampm;
     document.getElementById('clockdisplay').innerHTML = time;
     document.getElementById("clockdisplay").textContent = time;
